@@ -16,7 +16,7 @@ AUDIO_DIR.mkdir(parents=True, exist_ok=True)
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
-GEMINI_API_KEY = "API_KEY"
+GEMINI_API_KEY = "AIzaSyA7VmQaBJjY2RS33IetvWSL25viBVAQEdI"
 
 TTS_VOICE = "pt-BR-FranciscaNeural"
 
